@@ -1,0 +1,17 @@
+.body{
+    max-width: 1910px;
+    height: 100vw;
+}
+.img_success{
+ margin-top:15%;
+margin-left: 25%;}
+@media screen and (min-width:769px) and (max-width: 1910px){
+.complete{
+ width: 70%;
+}}
+
+@media screen and (min-width:350px) and (max-width: 768px){
+    .complete{
+        width: 50%;
+       }
+}

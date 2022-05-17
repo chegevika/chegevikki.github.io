@@ -1,0 +1,79 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+h1{
+    cursor: help;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom:3px solid gray ;
+    border-color: gold;
+}
+form{
+    margin: 0 auto;
+    background: rgb(103, 95, 95);
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 2px,2px,5px,rgba(0,0,0,0.82);
+}
+.form-select{
+    margin: 10px;
+}
+.form-check{
+    margin: 10px;
+}
+.group{
+    margin: 10px;
+    cursor: help;
+}
+    .shake:invalid{
+        border:10px solid red;
+        animation:shake 300ms;
+    }
+    @keyframes shake{
+    25%{transform: translateX(10px);}
+    50%{transform: translateX(-10px);}
+    75%{transform: translateX(10px);}
+    }
+    
+.label{
+    padding-left:10px;
+    text-transform:uppercase;
+}
+.input{
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 20px/20px;
+    border:none;
+    padding-left: 15px;
+    font-size:18px;
+    box-shadow: 2px,2px,5px,rgba(0,0,0,0.82);}
+   .input:focus {
+        border: 2px solid rgba(0,0,0,0.82);
+        transform:translateX(15px);
+        width:385px;}
+    .button{
+        cursor: pointer;
+        padding: 10px,30px;
+        height: 55px;
+        background: rgb(109, 107, 107);
+        border: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        box-shadow: 2px,2px,5px,rgba(0,0,0,0.82);
+    }
+    .button:hover{
+        opacity:80;
+        font-weight: bold;
+        transform: scale(1,1);
+    }
+    .btn{
+margin-top: 40px;
+    }
+
+
