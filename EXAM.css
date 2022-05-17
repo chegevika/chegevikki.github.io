@@ -179,13 +179,13 @@ transform: scale(1.3);
     width:1920px;
 }
 .socfoot {
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-color: #006294;
     clear: both;
     text-align: center;
 }
-.socfoot>a>img {width: 70px; height: 70px;}
+.socfoot>a>img {width: 45px; height: 45px;}
 .socfoot>a>img:first-child {margin: 25px 25px 25px 5%;}
 .socfoot>a>img:nth-child(2) {margin-left: 0}
 .socfoot>a>img:nth-child(3) {margin-left: 0}
