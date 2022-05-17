@@ -415,7 +415,7 @@ flex-direction: row;
     .img_logo{
         width: 200%;
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 60px;
     }
     
     .information-content{
@@ -447,7 +447,7 @@ flex-direction: row;
     }
 .small_menu{
     margin-top: 15%;
-    margin-left: 30%;
+    margin-left: 15%;
     list-style: none;
 }    
 .nav-link{
@@ -462,7 +462,7 @@ flex-direction: row;
     font-size: 20px;
     border: none;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: auto;
 
 }
 .dropbtn:hover, .dropbtn:focus {
