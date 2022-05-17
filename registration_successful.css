@@ -5,7 +5,7 @@
 .img_success{
  margin-top:15%;
 margin-left: 25%;}
-@media screen and (min-width:769px) and (max-width: 1910px){
+@media screen and (min-width:769px) and (max-width: 1024px){
 .complete{
  width: 70%;
 }}
